@@ -1,0 +1,28 @@
+.comments__container {
+  max-width: 1184px;
+  margin: 0 auto 102px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 19px;
+}
+
+@media all and (max-width: 1023px) {
+	.comments__container {
+    display: block;
+    padding-top: 16px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.comments__container {
+    padding-top: 24px;
+		margin-bottom: 48px;
+	}
+}
+
+@media all and (max-width: 320px) {
+	.comments__container {
+    padding-top: 20px;
+		margin-bottom: 64px;
+	}
+}

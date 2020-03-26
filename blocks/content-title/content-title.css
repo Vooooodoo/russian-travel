@@ -1,0 +1,24 @@
+.content-title {
+  max-width: 800px;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.0833;
+  text-align: center;
+  margin: 0 auto 48px;
+}
+
+@media all and (max-width: 768px) {
+	.content-title {
+		font-size: 2.625rem;
+    line-height: 1.0952;
+    margin-bottom: 24px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.content-title {
+		font-size: 2rem;
+    line-height: 1.0938;
+    margin-bottom: 16px;
+	}
+}

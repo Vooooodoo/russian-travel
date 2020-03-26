@@ -1,0 +1,18 @@
+@import url(./__container/photo__container.css);
+@import url(./__item/photo__item.css);
+
+.photo {
+  padding: 0 48px;
+}
+
+@media all and (max-width: 768px) {
+	.photo {
+		padding: 0 24px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.photo {
+		padding: 0 16px;
+	}
+}

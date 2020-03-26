@@ -1,0 +1,15 @@
+@import url(./__image/comment__image.css);
+@import url(./__quote/comment__quote.css);
+@import url(./__author/comment__author.css);
+
+@media all and (max-width: 1023px) {
+	.comment {
+    display: flex;
+    flex-direction: column;
+		margin: 0 auto 48px;
+  }
+
+  .comment:last-of-type {
+    margin-bottom: 0;
+  }
+}

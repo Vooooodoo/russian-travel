@@ -1,0 +1,31 @@
+.place__container {
+  max-width: 984px;
+  margin: 0 auto 72px;
+  display: grid;
+  grid-template-columns: minmax(0, 460px) minmax(0, 484px);
+  grid-column-gap: 4%;
+  grid-template-rows: max-content max-content;
+  grid-row-gap: 60px;
+
+}
+
+.place__container:last-of-type {
+  margin-bottom: 102px;
+}
+
+@media all and (max-width: 1024px) {
+	.place__container {
+    grid-row-gap: 40px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.place__container {
+    margin-bottom: 48px;
+    display: block;
+  }
+
+  .place__container:last-of-type {
+		margin-bottom: 64px;
+	}
+}

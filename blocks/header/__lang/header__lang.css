@@ -1,0 +1,19 @@
+@import url(./_active/header__lang_active.css);
+
+.header__lang {
+  font-size: 1.5rem;
+  line-height: .9583;
+  cursor: pointer;
+}
+
+.header__lang:hover {
+  opacity: .5;
+  transition: opacity .2s linear;
+}
+
+@media all and (max-width: 375px) {
+  .header__lang {
+    font-size: 1.125rem;
+    line-height: .9444;
+  }
+}

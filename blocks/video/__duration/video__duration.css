@@ -1,0 +1,23 @@
+.video__duration {
+  font-weight: 500;
+  font-size: .75rem;
+  line-height: 1.0833;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+  margin: 0 0 12px 30px;
+  position: relative;
+  z-index: 1;
+}
+
+@media all and (max-width: 1023px) {
+	.video__duration {
+		margin-left: 24px;
+    margin-bottom: 8px;
+	}
+}
+
+@media all and (max-width: 330px) {
+	.video__duration {
+		margin-left: 16px;
+	}
+}
