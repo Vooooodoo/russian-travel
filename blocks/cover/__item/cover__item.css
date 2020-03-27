@@ -50,16 +50,10 @@
   }
 }
 
-@media all and (max-width: 767px) {
-	.cover__item {
-    margin-bottom: 64px;
-  }
-}
-
-
 @media all and (max-width: 375px) {
 	.cover__item {
     height: calc(272 / 375 * 100vw);
+    margin-bottom: 64px;
   }
 }
 

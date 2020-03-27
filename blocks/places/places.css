@@ -1,0 +1,6 @@
+@media all and (max-width: 375px) {
+	.places {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}

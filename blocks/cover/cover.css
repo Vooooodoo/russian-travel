@@ -2,12 +2,24 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 
-.cover {
-  padding: 0 48px;
-}
-
 @media all and (max-width: 1024px) {
 	.cover {
-		padding: 0;
+    margin-left: -48px;
+    margin-right: -48px;
+	}
+}
+
+
+@media all and (max-width: 768px) {
+	.cover {
+    margin-left: -24px;
+    margin-right: -24px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.cover {
+    margin-left: -16px;
+    margin-right: -16px;
 	}
 }

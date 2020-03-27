@@ -1,4 +1,4 @@
-.video__duration {
+.video-item__duration {
   font-weight: 500;
   font-size: .75rem;
   line-height: 1.0833;
@@ -10,14 +10,14 @@
 }
 
 @media all and (max-width: 1023px) {
-	.video__duration {
+	.video-item__duration {
 		margin-left: 24px;
     margin-bottom: 8px;
 	}
 }
 
 @media all and (max-width: 330px) {
-	.video__duration {
+	.video-item__duration {
 		margin-left: 16px;
 	}
 }

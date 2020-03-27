@@ -1,17 +1,1 @@
 @import url(./__container/comments__container.css);
-
-.comments {
-  padding: 0 48px;
-}
-
-@media all and (max-width: 768px) {
-	.comments {
-		padding: 0 24px;
-	}
-}
-
-@media all and (max-width: 375px) {
-	.comments {
-		padding: 0 16px;
-	}
-}

@@ -12,63 +12,60 @@
 <body class="page">
   <div class="root">
     <header class="header">
-      <div class="header__container">
-        <img class="header__logo" src="./blocks/header/__logo/header__logo.svg" alt="Логотип с картой России.">
-        <div class="header__langs">
-          <span class="header__lang header__lang_active" lang="en">Ru</span>
-          <span class="header__lang" lang="en">En</span>
-        </div>
-      </div>
+      <img class="header__logo" src="./blocks/header/__logo/header__logo.svg" alt="Логотип с картой России.">
+      <ul class="header__langs">
+        <li>
+          <a class="header__lang" href="#" lang="en">Ru</a>
+        </li>
+
+        <li>
+          <a class="header__lang header__lang_inactive" href="#" lang="en">En</a>
+        </li>
+      </ul>
     </header>
 
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
-        <div class="lead__container">
-          <img class="lead__image" src="./blocks/lead/__image/lead__image.jpg" alt="Спящая в плацкартном вагоне девушка.">
-          <p class="lead__caption">ваша полка&nbsp;&mdash; верхняя</p>
-        </div>
+        <img class="lead__image" src="./blocks/lead/__image/lead__image.jpg" alt="Спящая в плацкартном вагоне девушка.">
+        <p class="lead__caption">ваша полка&nbsp;&mdash; верхняя</p>
       </section>
 
       <section class="intro">
-        <div class="intro__container">
-          <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
-          <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
-          <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
-          </ul>
-        </div>
+        <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
+        <p class="intro__text">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
+        <ul class="intro__list">
+          <li class="intro__list-text">Часовых поясов 11</li>
+          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО 12</li>
+          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО 16</li>
+          <li class="intro__list-text">Природных заповедников 105</li>
+          <li class="intro__list-text">Аэропортов 241</li>
+        </ul>
       </section>
 
       <section class="photo">
-        <div class="photo__container">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_train.jpg" alt="Озеро из окна поезда.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_atharva-tulsi.jpg" alt="Заснеженные горы.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_fog.jpg" alt="Поле в тумане.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_sochi.jpg" alt="Хвойный лес в тумане.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_arisa-chattasa.jpg" alt="Колесо автомобиля крупным планом на поверхности льда.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_baikal.jpg" alt="Песчаный берег озера Байкал.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_elbrus.jpg" alt="Гора Эльбрус.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_stanislav-kondratiev.jpg" alt="Волнорезы на берегу.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_kamchatka.jpg" alt="Горы полуострова Камчатка.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_kamchatka2.jpg" alt="Вулкан полуострова Камчатка.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_baikal2.jpg" alt="Скалы на берегу озера Байкал.">
-          <img class="photo__item" src="./blocks/photo/__item/photo__item_name_ergaki.jpg" alt="Леса и горы в облаках природного парка Ергаки.">
-        </div>
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_train.jpg" alt="Озеро из окна поезда.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_atharva-tulsi.jpg" alt="Заснеженные горы.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_fog.jpg" alt="Поле в тумане.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_sochi.jpg" alt="Хвойный лес в тумане.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_arisa-chattasa.jpg" alt="Колесо автомобиля крупным планом на поверхности льда.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_baikal.jpg" alt="Песчаный берег озера Байкал.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_elbrus.jpg" alt="Гора Эльбрус.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_stanislav-kondratiev.jpg" alt="Волнорезы на берегу.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_kamchatka.jpg" alt="Горы полуострова Камчатка.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_kamchatka2.jpg" alt="Вулкан полуострова Камчатка.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_baikal2.jpg" alt="Скалы на берегу озера Байкал.">
+        <img class="photo__item" src="./blocks/photo/__item/photo__item_name_ergaki.jpg" alt="Леса и горы в облаках природного парка Ергаки.">
       </section>
 
-      <section class="place">
-        <div class="place__container">
+      <section class="places">
+        <div class="place">
           <h2 class="place__title">Куршская коса</h2>
-          <nav class="place__website">
-            <h3 class="place__url-heading" lang="en">URL</h3>
+          <div class="place__website">
+            <p class="place__url-heading" lang="en">URL</p>
             <a class="place__url" href="http://park-kosa.ru/" target="_blank" lang="en">park-kosa.ru</a>
-          </nav>
+          </div>
           <img class="place__image" src="./blocks/place/__image/place__image_name_kosa.jpg" alt="Корни деревьев затопленные водой.">
           <div>
             <p class="place__paragraph">Здесь, посреди лесов и&nbsp;песчаных дюн, вы&nbsp;сможете увидеть два водных горизонта&nbsp;&mdash; спокойного Куршского залива с&nbsp;одной стороны и&nbsp;подёрнутого рябью волн Балтийского моря с&nbsp;другой. Уникальная природная зона на&nbsp;краю российского анклава.</p>
@@ -76,12 +73,12 @@
           </div>
         </div>
 
-        <div class="place__container">
+        <div class="place">
           <h2 class="place__title">Кольский</h2>
-          <nav class="place__website">
-            <h3 class="place__url-heading" lang="en">URL</h3>
+          <div class="place__website">
+            <p class="place__url-heading" lang="en">URL</p>
             <a class="place__url" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" lang="en">National Geographic</a>
-          </nav>
+          </div>
           <img class="place__image" src="./blocks/place/__image/place__image_name_kolsky.jpg" alt="Заснеженные скалы на берегу моря.">
           <div>
             <p class="place__paragraph">Почти весь полуостров находится за&nbsp;Полярным кругом. Саамская тундра, от&nbsp;которой на&nbsp;юг&nbsp;&mdash; тайга, а&nbsp;на&nbsp;север&nbsp;&mdash; Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -89,12 +86,12 @@
           </div>
         </div>
 
-        <div class="place__container">
+        <div class="place">
           <h2 class="place__title">Алтай</h2>
-          <nav class="place__website">
-            <h3 class="place__url-heading" lang="en">URL</h3>
+          <div class="place__website">
+            <p class="place__url-heading" lang="en">URL</p>
             <a class="place__url" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" lang="en">Facebook</a>
-          </nav>
+          </div>
           <img class="place__image" src="./blocks/place/__image/place__image_name_altai.jpg" alt="Ноутбук на фоне хвойного леса.">
           <div>
             <p class="place__paragraph">Алтай&nbsp;&mdash; одно из&nbsp;красивейших мест в&nbsp;России. В&nbsp;первую очередь из-за гор: если ехать вдоль хребта, вы&nbsp;увидите склоны, усыпанные соснами, горные реки и&nbsp;озёра. А&nbsp;если вы&nbsp;откроете в&nbsp;автомобиле окна, сможете познакомиться с&nbsp;невидимым чудом здешних мест&nbsp;&mdash; горным воздухом.</p>
@@ -102,12 +99,12 @@
           </div>
         </div>
 
-        <div class="place__container">
+        <div class="place">
           <h2 class="place__title">Зимний Байкал</h2>
-          <nav class="place__website">
-            <h3 class="place__url-heading" lang="en">URL</h3>
+          <div class="place__website">
+            <p class="place__url-heading" lang="en">URL</p>
             <a class="place__url" href="https://vk.com/baikalmile" target="_blank" lang="en">https://vk.com/baikalmile</a>
-          </nav>
+          </div>
           <img class="place__image" src="./blocks/place/__image/place__image_name_baikal.jpg" alt="Красивые узоры на льду крупным планом.">
           <div>
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в&nbsp;мире. Многие также знают, что это самый большой источник пресной воды и&nbsp;одно из&nbsp;красивейших мест в&nbsp;России.</p>
@@ -115,12 +112,12 @@
           </div>
         </div>
 
-        <div class="place__container">
+        <div class="place">
           <h2 class="place__title">Карелия</h2>
-          <nav class="place__website">
-            <h3 class="place__url-heading" lang="en">URL</h3>
+          <div class="place__website">
+            <p class="place__url-heading" lang="en">URL</p>
             <a class="place__url" href="http://vodlozero.ru/" target="_blank" lang="en">http://vodlozero.ru/</a>
-          </nav>
+          </div>
           <img class="place__image" src="./blocks/place/__image/place__image_name_kareliya.jpg" alt="Река с густыми лесами на берегах.">
           <div>
             <p class="place__paragraph">Сибирь заканчивается не&nbsp;на&nbsp;Урале, а&nbsp;в&nbsp;Карелии: образующая тайгу сибирская лиственница не&nbsp;растёт западнее Водлозера. Зато здесь она вымахивает на&nbsp;30&nbsp;метров&nbsp;&mdash; леса карельских национальных парков из-за непроходимых болот никогда не&nbsp;знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к&nbsp;живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В&nbsp;девственном лесу на&nbsp;сотню километров не&nbsp;встретишь тропы. А&nbsp;на&nbsp;редких тропинках деревья в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
@@ -131,25 +128,25 @@
       <section class="video">
         <h2 class="content-title">В&nbsp;глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
         <p class="content-subtitle">Видео от&nbsp;студии Stereotactic о&nbsp;местах в&nbsp;России, где ведутся фундаментальные исследования</p>
-        <nav class="video__container">
-          <a class="video__item video__item_bg_kamchatka" href="https://vimeo.com/81106671" target="_blank">
-            <div class="video__icon video__icon_play"></div>
+        <div class="video__container">
+          <a class="video-item video-item_bg_kamchatka" href="https://vimeo.com/81106671" target="_blank">
+            <img class="video-item__icon" src="./blocks/video-item/__icon/video-item__icon.svg" alt="Иконка плэй.">
             <div>
-              <p class="video__duration">6:30</p>
-              <h2 class="video__title" lang="en">Colors of Kamchatka</h2>
-              <p class="video__subtitle" lang="en">Director: Pavel Karykhalin</p>
+              <p class="video-item__duration">6:30</p>
+              <h2 class="video-item__title" lang="en">Colors of Kamchatka</h2>
+              <p class="video-item__subtitle" lang="en">Director: Pavel Karykhalin</p>
             </div>
           </a>
 
-          <a class="video__item video__item_bg_observatory" href="https://vimeo.com/290675450" target="_blank">
-            <div class="video__icon video__icon_play"></div>
+          <a class="video-item video-item_bg_observatory" href="https://vimeo.com/290675450" target="_blank">
+            <img class="video-item__icon" src="./blocks/video-item/__icon/video-item__icon.svg" alt="Иконка плэй.">
             <div>
-              <p class="video__duration">24:45</p>
-              <h2 class="video__title">Обсерватория | Observatory</h2>
-              <p class="video__subtitle" lang="en">Director: Alexander Khudokon</p>
+              <p class="video-item__duration">24:45</p>
+              <h2 class="video-item__title">Обсерватория | Observatory</h2>
+              <p class="video-item__subtitle" lang="en">Director: Alexander Khudokon</p>
             </div>
           </a>
-        </nav>
+        </div>
       </section>
 
       <section class="comments">
@@ -185,16 +182,30 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__container">
-        <nav>
-          <a class="footer__link" href="https://yandex.ru/maps/" target="_blank">Карты</a>
-          <a class="footer__link" href="https://yandex.ru/pogoda/" target="_blank">Погода</a>
-          <a class="footer__link" href="https://rasp.yandex.ru/" target="_blank">Расписание</a>
-          <a class="footer__link" href="https://calendar.yandex.ru/" target="_blank">Календарь</a>
-          <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-        </nav>
-        <p class="footer__copyright">&copy;&nbsp;2020. Андруханенко Роман</p>
-      </div>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__list">
+            <a class="footer__link" href="https://yandex.ru/maps/" target="_blank">Карты</a>
+          </li>
+
+          <li class="footer__list">
+            <a class="footer__link" href="https://yandex.ru/pogoda/" target="_blank">Погода</a>
+          </li>
+
+          <li class="footer__list">
+            <a class="footer__link" href="https://rasp.yandex.ru/" target="_blank">Расписание</a>
+          </li>
+
+          <li class="footer__list">
+            <a class="footer__link" href="https://calendar.yandex.ru/" target="_blank">Календарь</a>
+          </li>
+
+          <li class="footer__list">
+            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy;&nbsp;2020. Андруханенко Роман</p>
     </footer>
   </div>
 </body>

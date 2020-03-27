@@ -16,13 +16,12 @@
 @media all and (max-width: 375px) {
 	.comments__container {
     padding-top: 24px;
-		margin-bottom: 48px;
+		margin-bottom: 64px;
 	}
 }
 
 @media all and (max-width: 320px) {
 	.comments__container {
     padding-top: 20px;
-		margin-bottom: 64px;
 	}
 }

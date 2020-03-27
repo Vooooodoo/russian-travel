@@ -10,3 +10,19 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+
+.root {
+  padding: 0 48px;
+}
+
+@media all and (max-width: 768px) {
+	.root {
+		padding: 0 24px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.root {
+		padding: 0 16px;
+	}
+}
