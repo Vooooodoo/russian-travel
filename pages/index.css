@@ -14,5 +14,6 @@
 @import url(../blocks/video-item/video-item.css);
 @import url(../blocks/comments/comments.css);
 @import url(../blocks/comment/comment.css);
+/*добавить заголовку и подзаголовку падинги в соответствии с контрольными точками*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
