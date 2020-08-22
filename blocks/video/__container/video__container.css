@@ -3,12 +3,12 @@
   margin: 0 auto 102px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 18px;
+  gap: 18px;
 }
 
 @media all and (max-width: 1024px) {
 	.video__container {
-    grid-gap: 16px;
+    gap: 16px;
   }
 }
 
