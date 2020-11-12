@@ -1,12 +1,8 @@
 @import url(./__logo/header__logo.css);
-@import url(./__langs/header__langs.css);
-@import url(./__lang/header__lang.css);
 
 .header {
   max-width: 1184px;
   margin: 30px auto 48px;
-  display: flex;
-  justify-content: space-between;
 }
 
 @media all and (max-width: 375px) {
