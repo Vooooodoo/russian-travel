@@ -2,9 +2,9 @@
   font-size: 1.125rem;
   line-height: 1.6667;
   color: #FFFFFF;
+  transition: .2s linear;
 }
 
 .place__url:hover {
   opacity: .5;
-  transition: opacity .2s linear;
 }
